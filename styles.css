@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    padding: 15px;
+    background-color: #B1A7A6;
+}
+
+.nav-menu {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-menu {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 1rem ;
+    color: #660708;
+    text-decoration: none;
+}
+
+body {
+    background-color: #0B090A;
+    color: #F5F3F4;
+    height: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    flex: 1 1 0;
+}
+
+.texto-destaque {
+    color: #BA181B;
+}
+
+.conteudo-texto {
+    padding: 5% 10% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px; 
+}
+
+.titulo {
+    font-family: 'Krona One', sans-serif ;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.descricao-home {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.10rem;
+
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 40px;
+}
+.img-home {
+    width: 8%;
+    transition: transform 1s;
+}
+
+.img-home:hover {
+    transform: scale(1.5);
+}
+
+.titulo-terror {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+    font-size: 1.20rem;
+    display: flex;
+    text-align: left;
+}
+
+@keyframes FadeIn {
+   0% {opacity: 1;}
+   50% {opacity: 0.2;}
+   100% {opacity: 1;}
+}
+
+.img-fantasma {
+    width: 20%;
+    margin-left: 15%;
+    opacity: 0;
+    animation: FadeIn 2s linear infinite;
+    transition: transform 1s;
+}
+
+.img-fantasma:hover {
+    transform: scale(1.5);
+}
+
+.titulo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 20%;
+}
+
+.terror-texto {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+    padding: 2%;
+}
+
+.explicacao-terror {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.10rem;
+}
+.horror-terror {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    padding: 2%;
+}
+
+.horrorvsterror {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+    font-size: 1.20rem;
+    display: flex;
+    text-align: left;
+}
+
+.segundo-titulo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 10%;
+}
+
+.img-luigi {
+    width: 25%;
+    margin-right: 15%;
+    animation: FadeIn 2s linear infinite;
+    transition: transform 1s;
+}
+
+.img-luigi:hover {
+    transform: scale(1.5);
+}
+
+.explicacao-horrorvsterror {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.10rem;
+    margin-right: 10%;
+}
+
+.terceiro-titulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+    font-size: 1.20rem;
+}
+
+.texto-classificacao {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.10rem;
+}
+
+
+.baby-texto {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+    padding: 2%;
+    margin-right: 9%;
+}
+
+.crianca-texto {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #BA181B;
+    transition: transform 2s;
+    text-align: center;
+}
+
+.crianca-texto:hover {
+transform: scale(3.0);
+}
+
+.img-baby {
+    width: 20%;
+    margin-left: 15%;
+    animation: FadeIn 2s linear infinite;
+    transition: transform 1s;
+}
+
+.img-baby:hover {
+    transform: scale(1.5);
+}
+
+.textos-de-classificacao {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 25%;
+}
+
+.rodape {
+    color: #BA181B;
+    background-color: #B1A7A6;
+    padding: 20px;
+    font-family: 'Krona-One', 'sans-serif';
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10%;
+    text-align: center;
+}
+
