@@ -227,3 +227,22 @@ transform: scale(3.0);
     text-align: center;
 }
 
+@media (max-width: 950px) {
+
+    .cabecalho{
+     padding: 10%;
+    }
+
+    .cabecalho-menu{
+
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao-conteudo{
+        width: auto;
+    }
+}
