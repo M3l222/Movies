@@ -229,20 +229,24 @@ transform: scale(3.0);
 
 @media (max-width: 950px) {
 
-    .cabecalho{
+    .menu{
      padding: 10%;
     }
 
-    .cabecalho-menu{
-
+    .header-menu{
+        text-align: center;
         justify-content: center;
     }
+.img-home {
+    width: 9%;
+    margin-top: 2%
+}
 
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-    .apresentacao-conteudo{
+.textos-de-classificacao {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+    .descricao-home {
         width: auto;
     }
 }
