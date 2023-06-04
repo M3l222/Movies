@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .menu {
@@ -214,6 +215,44 @@ transform: scale(3.0);
     flex-direction: column;
     gap: 25px;
     margin-right: 25%;
+
+}
+
+.row {
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+h2 {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+    font-size: 1.20rem;
+}
+
+.poster__imgs {
+    width: 100%;
+    object-fit: contain;
+    max-height: 300px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 50px;
+}
+
+
+.poster__imgs:hover {
+    transform: scale(1.08);
+}
+
+.row__posters::-webkit-scrollbar {
+display: none;
 }
 
 .rodape {
@@ -227,26 +266,54 @@ transform: scale(3.0);
     text-align: center;
 }
 
-@media (max-width: 950px) {
-
-    .menu{
-     padding: 10%;
+@media only screen and (max-width: 480px) {
+    .terror-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0% 0% 10%;
     }
 
-    .header-menu{
-        text-align: center;
-        justify-content: center;
+    .img-fantasma {
+        width: 50%;
+        margin-right: 30%;
     }
-.img-home {
-    width: 9%;
-    margin-top: 2%
+
+    .horror-terror {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 0% 0% 0%;
+    }
+
+    .explicacao-horrorvsterror {
+        margin-bottom: 20px;
+    } 
+
+    .img-luigi {
+        width: 50%;
+        margin-left: 30%;
+    }
+
+    .baby-texto {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 20% 0% 0% 10%;
+    }
+
+    .crianca-texto {
+    margin-left: 125px;    
 }
 
-.textos-de-classificacao {
-    margin-right: 5%;
-    margin-left: 5%;
-}
-    .descricao-home {
-        width: auto;
+    .img-baby {
+     width: 50%;
+     margin-top: 70px;
+    }
+
+    .poster__imgs {
+        display: flex;
+        flex-direction: row;
+        margin-right: 50px;
     }
 }
